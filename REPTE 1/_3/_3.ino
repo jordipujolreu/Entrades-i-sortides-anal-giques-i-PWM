@@ -32,7 +32,7 @@ void setup()
 void loop()
 {
   
-  
+  num = 0 ;
 
   analogWrite(led0, num);    // DC a 0
   analogWrite(led1, num);    
