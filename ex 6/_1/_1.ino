@@ -10,7 +10,7 @@
 //******* Variables ***********************************************************
 // pin for speaker
 const int speakerPin = 9;
-int tempo = 300;
+int tempo = 150;
 
 //Melody 1
 //int length = 15; // the number of notes
@@ -23,14 +23,14 @@ int tempo = 300;
 //int beats[]={3, 2, 2, 1, 3, 2, 2, 1, 2, 1, 2, 2, 1, 3, 1, 2, 1, 1, 1, 1, 3, 1};
 
 //La comunidad
-int length = 32;
-char notes[] = "cdegdecegaCbgefedcdegdecegagdedc";
-int beats[] = {1, 1, 1, 2, 1, 1, 3, 1, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 1, 3, 1 ,1 ,2 ,1 ,2 ,1 ,3 ,3 };
+//int length = 32;
+//char notes[] = "cdegdecegaCbgefedcdegdecegagdedc";
+//int beats[] = {1, 1, 1, 2, 1, 1, 3, 1, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 1, 3, 1 ,1 ,2 ,1 ,2 ,1 ,3 ,3 };
 
 //OH
-//int length = 46 ;
-//char notes[] = "ecdecfeeddCbCgfCbCgfCbbCgcb CbCgfCbCgfCbbCgcCb";
-//int beats[] = { 1 , 1 , 3 ,1 , 1 , 3 , 1 , 3 , 1 , 3 ,   1  , 1 , 2  , 2 , 2 , 1 , 1 , 2 , 2 , 2 , 1 , 1 , 1 , 2 , 2 , 2 , 4 ,1  ,1  , 1 , 2  , 2 , 2 , 1 , 1 , 2 , 2 , 2 , 1 , 1 , 1 , 2 , 2 , 2 , 3 , 3  };
+int length = 46 ;
+char notes[] = "ecdecfeeddCbCgfCbCgfCbbCgcb CbCgfCbCgfCbbCgcCb";
+int beats[] = { 1 , 1 , 3 ,1 , 1 , 3 , 1 , 3 , 1 , 3 ,   1  , 1 , 2  , 2 , 2 , 1 , 1 , 2 , 2 , 2 , 1 , 1 , 1 , 2 , 2 , 2 , 4 ,1  ,1  , 1 , 2  , 2 , 2 , 1 , 1 , 2 , 2 , 2 , 1 , 1 , 1 , 2 , 2 , 2 , 3 , 3  };
 
 //Melody 3 jingle bells
 //int length = 51;
